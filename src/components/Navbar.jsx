@@ -14,7 +14,7 @@ export default function Navbar() {
     return (
 
         // mencoba membuat mengganti bg agar 
-        <nav className='bg-primary bg-white shadow-md px-8 py-3 md:px-20 fixed w-full z-50'>
+        <nav className='bg-[#303841] shadow-md px-8 py-3 md:px-20 fixed w-full z-50'>
             <div className='flex items-center justify-between'>
                 <div className="flex items-center space-x-4">
                     <img
@@ -26,7 +26,7 @@ export default function Navbar() {
 
                 <div className='md:hidden'>
                     <button onClick={toggleMenu}>
-                        {isOpen ? <X className="w-8 h-8" /> : <Menu className="w-6 h-6" />}
+                        {isOpen ? <X className="w-8 h-8" color='#eeeeee' /> : <Menu className="w-6 h-6" color='#eeeeee' />}
                     </button>
                 </div>
 
@@ -51,13 +51,13 @@ export default function Navbar() {
                         transition={{ duration: 0.3 }}
                         className="md:hidden min-h-screen flex flex-col items-center justify-center gap-2"
                     >
-                        <Link to="/home" className="block text-gray-700 hover:text-blue-600 transition">Home</Link>
-                        <Link to="/about" className="block text-gray-700 hover:text-blue-600 transition">About</Link>
-                        <Link to="/works" className="block text-gray-700 hover:text-blue-600 transition">Works</Link>
-                        <Link to="/contact" className="block text-gray-700 hover:text-blue-600 transition mb-10">Contact</Link>
+                        <Link to="/home" className="block text-[#EEEEEE] hover:text-blue-600 transition">Home</Link>
+                        <Link to="/about" className="block text-[#EEEEEE] hover:text-blue-600 transition">About</Link>
+                        <Link to="/works" className="block text-[#EEEEEE] hover:text-blue-600 transition">Works</Link>
+                        <Link to="/contact" className="block text-[#EEEEEE] hover:text-blue-600 transition mb-10">Contact</Link>
                         <div className='flex gap-2 items-center'>
-                            <button><SiInstagram className='w-7 h-7' /></button>
-                            <button><MdOutlineEmail className='w-8 h-8' /></button>
+                            <button><SiInstagram className='w-7 h-7' color='#eeeeee' /></button>
+                            <button><MdOutlineEmail className='w-8 h-8' color='#eeeeee' /></button>
                         </div>
                     </motion.div>
                 )}
