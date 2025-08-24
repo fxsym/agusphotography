@@ -4,5 +4,19 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
+  plugins: [react(), 
+    tailwindcss({
+      config: {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#303841",
+            },
+            fontFamily: {
+              poppins: ['Poppins', 'sans-serif'],
+            },
+          },
+        },
+      },
+    })],
 })

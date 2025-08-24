@@ -12,7 +12,9 @@ export default function Navbar() {
     const toggleMenu = () => setIsOpen(!isOpen);
 
     return (
-        <nav className='bg-white shadow-md px-8 py-3 md:px-20 fixed w-full z-50'>
+
+        // mencoba membuat mengganti bg agar 
+        <nav className='bg-primary bg-white shadow-md px-8 py-3 md:px-20 fixed w-full z-50'>
             <div className='flex items-center justify-between'>
                 <div className="flex items-center space-x-4">
                     <img
@@ -28,14 +30,16 @@ export default function Navbar() {
                     </button>
                 </div>
 
-                <div className='hidden md:flex md:w-120  md:items-center md:justify-end'>
-                    <ul className='flex w-3/4 justify-between text-xs md:text-base'>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Works</li>
-                        <li>Contact</li>
+                {/* mengganti style nav agar menjadi lebih lebar */}
+                <div className="hidden md:flex md:items-center md:justify-end">
+                    <ul className="flex gap-10 font-semibold text-[27px] text-[#EEEEEE]">
+                      <li>Home</li>
+                      <li>About</li>
+                      <li>Works</li>
+                      <li>Contact</li>
                     </ul>
                 </div>
+
             </div>
 
             <AnimatePresence>

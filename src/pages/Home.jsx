@@ -7,8 +7,9 @@ export default function Home() {
         <div>
             <Navbar></Navbar>
             <Hero></Hero>
-            <Description></Description>
-            <h1 className="text-black ">Hello World</h1>
+            <div className="mt-15"> {}
+                <Description/>
+            </div>
         </div>
     )
 }
