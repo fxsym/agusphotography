@@ -14,14 +14,15 @@ export default function Navbar() {
     return (
 
         // mencoba membuat mengganti bg agar 
-        <nav className='bg-[#303841] shadow-md px-8 py-3 md:px-20 fixed w-full z-50'>
+        <nav className='bg-gray-800 shadow-md px-8 py-4 md:px-20 md:py-6 fixed w-full z-50'>
             <div className='flex items-center justify-between'>
                 <div className="flex items-center space-x-4">
-                    <img
+                    {/* <img
                         src={Logo}
                         alt="Profile"
                         className="w-12 h-12 object-cover md:w-20 md:h-20"
-                    />
+                    /> */}
+                    <p className='text-sm sm:text-lg md:text-[27px] font-[Poppins] font-bold text-[#EEEEEE]'>Agus Photography</p>
                 </div>
 
                 <div className='md:hidden'>
@@ -32,7 +33,7 @@ export default function Navbar() {
 
                 {/* mengganti style nav agar menjadi lebih lebar */}
                 <div className="hidden md:flex md:items-center md:justify-end">
-                    <ul className="flex gap-10 font-semibold text-[27px] text-[#EEEEEE]">
+                    <ul className="flex gap-10 font-semibold  text-[16px] text-[#EEEEEE] font-[Poppins]">
                       <li>Home</li>
                       <li>About</li>
                       <li>Works</li>
