@@ -22,7 +22,7 @@ export default function Gallery() {
   ];
 
   return (
-    <div className="mt-16">
+    <div className="bg-gray-200 py-14">
       <div className="text-center">
         <h1 className="text-2xl font-bold font-[Poppins] md:text-3xl lg:text-4xl">GALLERY</h1>
       </div>
