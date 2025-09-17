@@ -22,9 +22,9 @@ export default function Gallery() {
   ];
 
   return (
-    <div className="mt-10 mx-4">
+    <div className="mt-16">
       <div className="text-center">
-        <h1 className="text-2xl font-bold font-[Poppins] md:text-3xl lg:text-4xl">Gallery</h1>
+        <h1 className="text-2xl font-bold font-[Poppins] md:text-3xl lg:text-4xl">GALLERY</h1>
       </div>
 
       {/* Tombol kategori */}
