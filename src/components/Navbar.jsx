@@ -14,7 +14,7 @@ export default function Navbar() {
     return (
 
         // mencoba membuat mengganti bg agar 
-        <nav className='bg-gray-800 shadow-md px-8 py-4 md:px-20 md:py-6 fixed w-full z-50'>
+        <nav className='bg-gray-800 shadow-md px-8 py-4 md:px-20 md:py-6  w-full z-50'>
             <div className='flex items-center justify-between'>
                 <div className="flex items-center space-x-4">
                     {/* <img
