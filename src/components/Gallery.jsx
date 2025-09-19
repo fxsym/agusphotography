@@ -1,32 +1,35 @@
 import CategoryGallery from "./CategoryGallery";
 import TitleCategoryGallery from "./TitleCategoryGallery";
 
-import Potrait1 from "../assets/images/Potrait_1.jpg"
-import Potrait2 from "../assets/images/Potrait_2.jpg"
-import Potrait3 from "../assets/images/Potrait_3.jpg"
-import Potrait4 from "../assets/images/Potrait_4.jpg"
-import Potrait5 from "../assets/images/Potrait_5.jpg"
-import Potrait6 from "../assets/images/Potrait_6.jpg"
-import Potrait7 from "../assets/images/Potrait_7.jpg"
-import Potrait8 from "../assets/images/Potrait_8.jpg"
-import Potrait9 from "../assets/images/Potrait_9.jpg"
-import Potrait10 from "../assets/images/Potrait_10.jpg"
-import Potrait11 from "../assets/images/Potrait_11.jpg"
-import Potrait12 from "../assets/images/Potrait_12.jpg"
-import Potrait13 from "../assets/images/Potrait_13.jpg"
-import Potrait14 from "../assets/images/Potrait_14.jpg"
-import Potrait15 from "../assets/images/Potrait_15.jpg"
-import Landscape1 from "../assets/images/Landscape_1.jpg"
-import Landscape2 from "../assets/images/Landscape_2.jpg"
-import Landscape3 from "../assets/images/Landscape_3.jpg"
-import Landscape4 from "../assets/images/Landscape_4.jpg"
 import { useState } from "react";
 
 export default function Gallery() {
   const [activeCategory, setActiveCategory] = useState(0);
 
   const categories = [
-    { title: "", photos: [Potrait1, Potrait2, Potrait3, Potrait4, Potrait5, Potrait6, Potrait7, Potrait8, Potrait9, Potrait10, Potrait11, Potrait12, Potrait13, Potrait14, Potrait15, Landscape1, Landscape2, Landscape3, Landscape4] },
+    { title: "", photos: [
+      "https://res.cloudinary.com/dii2gjk9p/image/upload/v1758285251/Potrait_12_cmdazg.jpg", 
+      "https://res.cloudinary.com/dii2gjk9p/image/upload/v1758285250/Potrait_13_coxhax.jpg", 
+      "https://res.cloudinary.com/dii2gjk9p/image/upload/v1758285250/Potrait_27_edgdvh.jpg", 
+      "https://res.cloudinary.com/dii2gjk9p/image/upload/v1758285249/Potrait_11_ep1zyx.jpg", 
+      "https://res.cloudinary.com/dii2gjk9p/image/upload/v1758285247/Potrait_10_xjhcpc.jpg", 
+      "https://res.cloudinary.com/dii2gjk9p/image/upload/v1758285246/Potrait_26_mt7mln.jpg",
+      "https://res.cloudinary.com/dii2gjk9p/image/upload/v1758285244/Potrait_9_hbhw30.jpg",
+      "https://res.cloudinary.com/dii2gjk9p/image/upload/v1758285243/Potrait_25_jvtlbv.jpg",
+      "https://res.cloudinary.com/dii2gjk9p/image/upload/v1758285240/Potrait_8_aco8ae.jpg",
+      "https://res.cloudinary.com/dii2gjk9p/image/upload/v1758285238/Potrait_24_aotcki.jpg",
+      "https://res.cloudinary.com/dii2gjk9p/image/upload/v1758285238/Potrait_23_nomkk5.jpg",
+      "https://res.cloudinary.com/dii2gjk9p/image/upload/v1758285234/Potrait_4_bxtrzy.jpg",
+      "https://res.cloudinary.com/dii2gjk9p/image/upload/v1758285235/Potrait_7_e4ar9w.jpg",
+      "https://res.cloudinary.com/dii2gjk9p/image/upload/v1758285234/Potrait_6_pe0ekn.jpg",
+      "https://res.cloudinary.com/dii2gjk9p/image/upload/v1758285234/Potrait_5_a43ipq.jpg",
+      "https://res.cloudinary.com/dii2gjk9p/image/upload/v1758285229/Potrait_22_yccg7o.jpg",
+      "https://res.cloudinary.com/dii2gjk9p/image/upload/v1758285228/Potrait_21_lpcnqo.jpg",
+      "https://res.cloudinary.com/dii2gjk9p/image/upload/v1758285228/Potrait_2_avmyng.jpg",
+      "https://res.cloudinary.com/dii2gjk9p/image/upload/v1758285228/Potrait_3_qtkhdl.jpg",
+      "https://res.cloudinary.com/dii2gjk9p/image/upload/v1758285227/Potrait_17_cyswdm.jpg",
+
+    ]},
   ];
 
   return (
