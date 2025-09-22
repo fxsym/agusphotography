@@ -33,10 +33,7 @@ export default function Gallery() {
   ];
 
   return (
-    <div className="bg-gray-200 py-14">
-      <div className="text-center">
-        <h1 className="text-2xl font-bold font-[Poppins] md:text-3xl lg:text-4xl">GALLERY</h1>
-      </div>
+    <div className="bg-gray-200 py-8">
 
       {/* Tombol kategori */}
       <div className="w-full flex flex-wrap justify-around mt-4">
