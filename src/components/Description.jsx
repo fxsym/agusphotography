@@ -37,7 +37,8 @@ export default function Description() {
           </h1>
           <div className="w-20 h-1 bg-gray-800 mx-auto md:mx-0 mb-6"></div>
           <p className="text-lg md:text-xl text-gray-800 font-medium max-w-2xl leading-relaxed text-justify md:text-left">
-            I am a professional photographer who focuses on capturing precious moments and transforming them into meaningful visual artworks. With over 5 years of experience, I have worked on various projects ranging from pre-wedding, portrait, product, to commercial photography.
+            I am a Japan-based professional photographer based in Osaka and Kyoto. My passion is capturing life’s most precious moments and transforming them into timeless visual art.
+With over 5 years of experience, I have worked on diverse projects, including pre-weddings, portraits, products, and commercial photography. For me, every photograph is more than just an image it is a story to be told, cherished, and preserved.
           </p>
           <p className="text-lg md:text-xl text-gray-800 font-medium mt-4 max-w-2xl leading-relaxed text-justify md:text-left">
             For me, every photo is not just an image, but a story that needs to be told and preserved.
