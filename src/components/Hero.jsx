@@ -17,7 +17,7 @@ export default function Hero() {
   const scale = 1 + Math.min(scrollY / 1000, 0.07); // max scale 1.07
 
   return (
-    <section className="relative h-screen w-full overflow-hidden">
+    <section className="relative h-screen w-full overflow-hidden" id="home">
       {/* Background image dengan efek zoom */}
       <div className="absolute inset-0">
         <img

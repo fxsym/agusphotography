@@ -33,8 +33,7 @@ export default function Gallery() {
   ];
 
   return (
-    <div className="bg-gray-200 py-8">
-
+    <div className="bg-gray-200 py-4" id="gallery">
       {/* Tombol kategori */}
       <div className="w-full flex flex-wrap justify-around mt-4">
         {categories.map((cat, index) => (

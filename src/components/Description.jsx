@@ -12,7 +12,7 @@ export default function Description() {
   }, []);
 
   return (
-    <div className="relative z-10 max-w-6xl mx-auto px-6 py-20 md:py-32 flex flex-col md:flex-row items-center justify-between">
+    <div className="relative z-10 max-w-6xl mx-auto px-6 py-20 md:py-32 flex flex-col md:flex-row items-center justify-between" id="about">
 
       {/* Profile Image with enhanced styling */}
       <div data-aos="fade-zoom-in" data-aos-delay="100" className={`order-0 md:order-1 flex-1 mb-12 md:mb-0 flex justify-center transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
