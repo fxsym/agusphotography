@@ -3,7 +3,7 @@ import Home from "../pages/Home";
 import ErrorPage from "./ErrorPage";
 import Booking from "../pages/Booking";
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
     {
         path: "/",
         element: <Home></Home>,
