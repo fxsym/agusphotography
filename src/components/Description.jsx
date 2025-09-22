@@ -21,7 +21,7 @@ export default function Description() {
           <img
             src={AgusImage}
             alt="Professional Photographer"
-            className="relative w-64 h-64 md:w-80 md:h-80 object-cover rounded-full z-10 shadow-xl"
+            className="relative w-64 h-64 md:w-80 md:h-80 object-cover object-top rounded-full z-10 shadow-xl"
           />
           <div className="absolute -bottom-4 -right-4 bg-gray-800 text-white px-4 py-2 rounded-full text-sm font-semibold z-20">
             5+ Years Experience
