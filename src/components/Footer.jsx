@@ -14,14 +14,14 @@ export default function Footer() {
         {/* Brand */}
         <h3
           data-aos="fade-up"
-          className="text-2xl font-bold text-white mb-4"
+          className="text-2xl font-bold text-white mb-4 font-[Abel]"
         >
           Agus Photography
         </h3>
         <p
           data-aos="fade-up"
           data-aos-delay="100"
-          className="text-sm md:text-base max-w-xl mb-6 leading-relaxed"
+          className="text-sm md:text-base max-w-xl mb-6 leading-relaxed font-[Abel]"
         >
           Capturing life&apos;s precious moments with creativity and passion.
           Wherever you are, let&apos;s create timeless memories together.
@@ -34,7 +34,7 @@ export default function Footer() {
           className="flex items-center text-sm mb-8"
         >
           <MapPin size={16} className="mr-2 text-blue-400" />
-          <span>Tokyo, Japan</span>
+          <span className="font-[Abel]">Osaka - Kyoto, Japan</span>
         </div>
 
         {/* Social Links */}
@@ -75,7 +75,7 @@ export default function Footer() {
         <p
           data-aos="fade-up"
           data-aos-delay="400"
-          className="text-xs md:text-sm text-gray-400"
+          className="text-xs md:text-sm text-gray-400 font-[Abel]"
         >
           © {new Date().getFullYear()} Agus Photography. Made with{" "}
           <Heart size={14} className="inline-block mx-1 text-red-500" /> and

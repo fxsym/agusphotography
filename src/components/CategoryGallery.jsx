@@ -1,13 +1,12 @@
 import Masonry from "react-masonry-css";
 import ImageGallery from "./ImageGallery";
 
-export default function CategoryGallery({ targetRef, photoName }) {
-  // Breakpoint responsif: jumlah kolom berubah sesuai ukuran layar
+export default function CategoryGallery({ targetRef, photoName, onImageClick }) {
   const breakpointColumnsObj = {
-    default: 4, // layar besar → 4 kolom
-    1100: 3,    // layar sedang → 3 kolom
-    700: 2,     // layar kecil → 2 kolom
-    500: 2      // hp → 1 kolom
+    default: 4,
+    1100: 3,
+    700: 2,
+    500: 1,
   };
 
   return (
@@ -18,7 +17,7 @@ export default function CategoryGallery({ targetRef, photoName }) {
       ref={targetRef}
     >
       {photoName.map((photo, index) => (
-        <ImageGallery key={index} src={photo} />
+        <ImageGallery key={index} src={photo} onClick={() => onImageClick(photo)} />
       ))}
     </Masonry>
   );

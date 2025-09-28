@@ -194,7 +194,7 @@ export default function Navbar() {
         <div className="flex items-center space-x-4">
           <button 
             onClick={() => scrollToSection("home")}
-            className="text-sm sm:text-lg md:text-[27px] font-[Poppins] font-bold text-[#EEEEEE] hover:text-[#00ADB5] transition-colors"
+            className="text-sm sm:text-lg md:text-[27px] font-[Abel] font-semibold text-[#EEEEEE] transition-colors"
           >
             Agus Photography
           </button>
@@ -213,7 +213,7 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex md:items-center md:justify-end">
-          <ul className="flex gap-10 font-semibold text-[16px] text-[#EEEEEE] font-[Poppins]">
+          <ul className="flex gap-10 font-semibold text-[16px] text-[#EEEEEE] font-[Abel]">
             {navItems.map((item) => (
               <li key={item.id}>
                 <button 

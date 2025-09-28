@@ -36,10 +36,10 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 h-full flex flex-row items-center justify-center text-center md:text-left">
         <div className="flex-1 text-white">
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-4">
+          <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-4 font-[Abel]">
             Capturing any beautiful moment inside lens.
           </h1>
-          <p className="text-xl md:text-3xl mb-6 text-yellow-500 font-bold">
+          <p className="text-xl md:text-3xl mb-6 text-yellow-500 font-bold font-[Abel]">
             Profesional Photographer
           </p>
         </div>

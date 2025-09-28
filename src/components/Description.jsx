@@ -23,7 +23,7 @@ export default function Description() {
             alt="Professional Photographer"
             className="relative w-64 h-64 md:w-80 md:h-80 object-cover object-top rounded-full z-10 shadow-xl"
           />
-          <div className="absolute -bottom-4 -right-4 bg-gray-800 text-white px-4 py-2 rounded-full text-sm font-semibold z-20">
+          <div className="absolute -bottom-4 -right-4 bg-gray-800 text-white px-4 py-2 rounded-full text-sm font-semibold z-20 font-[Abel]">
             5+ Years Experience
           </div>
         </div>
@@ -32,15 +32,15 @@ export default function Description() {
       {/* Text Content */}
       <div className={`flex-1 transition-all duration-700 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`} data-aos="fade-zoom-in" data-aos-delay="100">
         <div className="text-center md:text-left">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-800 mb-2">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-800 mb-2 font-[Abel]">
             Hello, I'm Agus
           </h1>
           <div className="w-20 h-1 bg-gray-800 mx-auto md:mx-0 mb-6"></div>
-          <p className="text-lg md:text-xl text-gray-800 font-medium max-w-2xl leading-relaxed text-justify md:text-left">
+          <p className="text-lg md:text-xl text-gray-800 font-medium max-w-2xl leading-relaxed text-justify md:text-left font-[Abel]">
             I am a Japan-based professional photographer based in Osaka and Kyoto. My passion is capturing life’s most precious moments and transforming them into timeless visual art.
 With over 5 years of experience, I have worked on diverse projects, including pre-weddings, portraits, products, and commercial photography. For me, every photograph is more than just an image it is a story to be told, cherished, and preserved.
           </p>
-          <p className="text-lg md:text-xl text-gray-800 font-medium mt-4 max-w-2xl leading-relaxed text-justify md:text-left">
+          <p className="text-lg md:text-xl text-gray-800 font-medium mt-4 max-w-2xl leading-relaxed text-justify md:text-left font-[Abel]">
             For me, every photo is not just an image, but a story that needs to be told and preserved.
           </p>
 
@@ -49,7 +49,7 @@ With over 5 years of experience, I have worked on diverse projects, including pr
             {['Pre-Wedding', 'Travel', 'Family', 'Commercial'].map((specialty, index) => (
               <span
                 key={index}
-                className="px-4 py-2 bg-gray-800 text-white rounded-full text-sm font-medium"
+                className="px-4 py-2 bg-gray-800 text-white rounded-full text-sm font-medium font-[Abel]"
               >
                 {specialty}
               </span>
