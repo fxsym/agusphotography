@@ -18,8 +18,16 @@ import Potrait15 from "../assets/images/Potrait15.webp"
 import Potrait16 from "../assets/images/Potrait16.webp"
 import Potrait17 from "../assets/images/Potrait17.webp"
 import Potrait18 from "../assets/images/Potrait18.webp"
+import Potrait19 from "../assets/images/Potrait19.webp"
+import Potrait20 from "../assets/images/Potrait20.webp"
+import Potrait21 from "../assets/images/Potrait21.webp"
+import Potrait22 from "../assets/images/Potrait22.webp"
+import Potrait23 from "../assets/images/Potrait23.webp"
+import Potrait24 from "../assets/images/Potrait24.webp"
+import Potrait25 from "../assets/images/Potrait25.webp"
 import Landscape1 from "../assets/images/Landscape1.webp"
 import Landscape2 from "../assets/images/Landscape2.webp"
+import Landscape3 from "../assets/images/Landscape3.webp"
 
 import { useState } from "react";
 
@@ -72,6 +80,14 @@ export default function Gallery() {
         Potrait16,
         Potrait17,
         Potrait18,
+        Potrait19,
+        Potrait20,
+        Potrait21,
+        Landscape3,
+        Potrait22,
+        Potrait23,
+        Potrait24,
+        Potrait25,
       ]
     },
   ];
